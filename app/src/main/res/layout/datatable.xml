@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/listLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtSymbolAdapter"
+            android:textSize="18sp"
+            android:text="Symbol"
+            android:maxLength="4"
+            android:textAllCaps="true"
+            android:maxLines="1"
+            android:layout_width="55dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp" />
+        <TextView
+            android:id="@+id/txtFiyatAdapter"
+            android:textSize="18sp"
+            android:text="Fiyat"
+            android:gravity="center"
+            android:maxLength="4"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+           />
+        <TextView
+            android:id="@+id/txtFarkAdapter"
+            android:textSize="18sp"
+            android:text="Fark"
+            android:maxLength="4"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp" />
+        <TextView
+            android:id="@+id/txtHacimAdapter"
+            android:textSize="18sp"
+            android:text="Hacim"
+            android:gravity="center"
+            android:maxWidth="55dp"
+            android:minHeight="55dp"
+            android:maxLength="3"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp" />
+        <TextView
+            android:id="@+id/txtAlisAdapter"
+            android:textSize="18sp"
+            android:text="Alış"
+            android:gravity="center"
+            android:maxLength="4"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            />
+        <TextView
+            android:id="@+id/txtSatisAdapter"
+            android:textSize="18sp"
+            android:text="Satış"
+            android:maxLength="4"
+            android:gravity="center"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp" />
+
+        <ImageView
+            android:id="@+id/imageDegisimAdapter"
+            android:layout_width="35dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:gravity="center"
+             />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+

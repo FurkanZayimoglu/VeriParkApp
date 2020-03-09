@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_item_activity_titles">
+        <item>IMKB Hisse ve Endeskler</item>
+        <item>Yükselenler</item>
+        <item>Düşenler</item>
+        <item>Hacme Göre - 30</item>
+        <item>Hacme Göre - 50</item>
+        <item>Hacim Göre - 100</item>
+
+    </string-array>
+</resources>

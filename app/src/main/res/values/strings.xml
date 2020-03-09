@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VeriParkApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_hisse">Hisse ve Endeksler</string>
+    <string name="menu_yukselen">Yükselenler</string>
+    <string name="menu_dusen">Düşenler</string>
+    <string name="menu_hacim30">Hacme Göre-30</string>
+    <string name="menu_hacim50">Hacme Göre-50</string>
+    <string name="menu_hacim100">Hacme Göre-100</string>
+    <string name="splash_toolbar_text">IMKB Hisse ve Endeksler</string>
+    <string name="arrow">Değişim</string>
+
+    <string name="home_second">Home Second</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

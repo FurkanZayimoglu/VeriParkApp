@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.HisseEndeksFragment">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="10dp">
+
+        <EditText
+            android:hint="Ara..."
+            android:background="@android:color/transparent"
+            android:id="@+id/searchImkb"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            app:defaultQueryHint="Ara"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:background="#dcdcdc"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtSymbolAdapter"
+                android:textSize="17sp"
+                android:text="Sembol"
+                android:layout_width="60dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:id="@+id/txtFiyatAdapter"
+                android:textSize="17sp"
+                android:text="Fiyat"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                />
+            <TextView
+                android:id="@+id/txtFarkAdapter"
+                android:textSize="17sp"
+                android:text="Fark"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:id="@+id/txtHacimAdapter"
+                android:textSize="17sp"
+                android:text="Hacim"
+                android:gravity="center"
+                android:maxWidth="62dp"
+                android:minHeight="55dp"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp" />
+            <TextView
+                android:id="@+id/txtAlisAdapter"
+                android:textSize="17sp"
+                android:text="Alış"
+                android:gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp"
+                />
+            <TextView
+                android:id="@+id/txtSatisAdapter"
+                android:textSize="17sp"
+                android:text="Satış"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:layout_marginEnd="2dp"
+                android:layout_marginRight="2dp" />
+
+            <TextView
+                android:id="@+id/imageDegisimAdapter"
+                android:text="Değişim"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerHacim30"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
